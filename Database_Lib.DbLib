@@ -1,0 +1,45 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\dev\altium\Altium_Library\Database_Lib.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=1
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel 2007
+LibraryDatabasePath=D:\dev\altium\Altium_Library\Database_Lib.xlsx
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Resistor$
+[Table1]
+SchemaName=
+TableName=Resistor$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PART_NUMBER0=119|(Footprint Ref)0=113|(Library Ref)0=98|(Description)0=239|GOST_PACKAGE0=126|GOST_POWER0=113|GOST_VALUE0=108|GOST_TOLERANCE0=141|SMT_NAME0=97
+[Table2]
+SchemaName=
+TableName=Resistor$_xlnm#_FilterDatabase
+Enabled=True
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=Resistor$.PART_NUMBER|TableNameOnly=Resistor$|FieldNameOnly=PART_NUMBER|FieldType=0|ParameterName=PART_NUMBER|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Resistor$.(Footprint Ref)|TableNameOnly=Resistor$|FieldNameOnly=(Footprint Ref)|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Resistor$.(Library Ref)|TableNameOnly=Resistor$|FieldNameOnly=(Library Ref)|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Resistor$.(Description)|TableNameOnly=Resistor$|FieldNameOnly=(Description)|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
