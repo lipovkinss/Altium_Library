@@ -3,43 +3,58 @@ Version=1.1
 [DatabaseLinks]
 ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\dev\altium\Altium_Library\Database_Lib.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
 AddMode=3
-RemoveMode=1
-UpdateMode=2
-ViewMode=1
+RemoveMode=2
+UpdateMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel 2007
-LibraryDatabasePath=D:\dev\altium\Altium_Library\Database_Lib.xlsx
-DatabasePathRelative=0
+LibraryDatabasePath=Database_Lib.xlsx
+DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Resistor$
+LastFocusedTable=Capacitor$
 [Table1]
+SchemaName=
+TableName=Capacitor$
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table2]
 SchemaName=
 TableName=Resistor$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PART_NUMBER0=119|(Footprint Ref)0=113|(Library Ref)0=98|(Description)0=239|GOST_PACKAGE0=126|GOST_POWER0=113|GOST_VALUE0=108|GOST_TOLERANCE0=141|SMT_NAME0=97
-[Table2]
-SchemaName=
-TableName=Resistor$_xlnm#_FilterDatabase
-Enabled=True
-UserWhere=0
-UserWhereText=
 [FieldMap1]
-Options=FieldName=Resistor$.PART_NUMBER|TableNameOnly=Resistor$|FieldNameOnly=PART_NUMBER|FieldType=0|ParameterName=PART_NUMBER|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor$.PART_NUMBER|TableNameOnly=Capacitor$|FieldNameOnly=PART_NUMBER|FieldType=0|ParameterName=PART_NUMBER|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Resistor$.(Footprint Ref)|TableNameOnly=Resistor$|FieldNameOnly=(Footprint Ref)|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor$.(Library Ref)|TableNameOnly=Capacitor$|FieldNameOnly=(Library Ref)|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Resistor$.(Library Ref)|TableNameOnly=Resistor$|FieldNameOnly=(Library Ref)|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor$.(Footprint Ref)|TableNameOnly=Capacitor$|FieldNameOnly=(Footprint Ref)|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
+Options=FieldName=Capacitor$.(Description)|TableNameOnly=Capacitor$|FieldNameOnly=(Description)|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Resistor$.PART_NUMBER|TableNameOnly=Resistor$|FieldNameOnly=PART_NUMBER|FieldType=0|ParameterName=PART_NUMBER|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Resistor$.(Footprint Ref)|TableNameOnly=Resistor$|FieldNameOnly=(Footprint Ref)|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Resistor$.(Library Ref)|TableNameOnly=Resistor$|FieldNameOnly=(Library Ref)|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
 Options=FieldName=Resistor$.(Description)|TableNameOnly=Resistor$|FieldNameOnly=(Description)|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Resistor$.GOST_PACKAGE|TableNameOnly=Resistor$|FieldNameOnly=GOST_PACKAGE|FieldType=1|ParameterName=GOST_PACKAGE|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+[FieldMap10]
+Options=FieldName=Resistor$.GOST_POWER|TableNameOnly=Resistor$|FieldNameOnly=GOST_POWER|FieldType=1|ParameterName=GOST_POWER|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+[FieldMap11]
+Options=FieldName=Resistor$.GOST_VALUE|TableNameOnly=Resistor$|FieldNameOnly=GOST_VALUE|FieldType=1|ParameterName=GOST_VALUE|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+[FieldMap12]
+Options=FieldName=Resistor$.GOST_TOLERANCE|TableNameOnly=Resistor$|FieldNameOnly=GOST_TOLERANCE|FieldType=1|ParameterName=GOST_TOLERANCE|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
+[FieldMap13]
+Options=FieldName=Resistor$.SMT_NAME|TableNameOnly=Resistor$|FieldNameOnly=SMT_NAME|FieldType=1|ParameterName=SMT_NAME|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=1
