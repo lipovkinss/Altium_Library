@@ -26,12 +26,18 @@ TableName=Capacitor$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PART_NUMBER0=148|(Library Ref)0=98|(Footprint Ref)0=113|(Description)0=261|GOST_PACKAGE0=126|GOST_POWER0=113|GOST_VALUE0=108|GOST_TOLERANCE0=141|GOST_TKE0=88|SMT_NAME0=97|GOST_MANUFACTURER0=173
 [Table2]
 SchemaName=
 TableName=Resistor$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PART_NUMBER0=127|(Footprint Ref)0=113|(Library Ref)0=98|(Description)0=257|GOST_PACKAGE0=126|GOST_POWER0=113|GOST_VALUE0=108|GOST_TOLERANCE0=141|SMT_NAME0=97|GOST_MANUFACTURER0=173
 [FieldMap1]
 Options=FieldName=Capacitor$.PART_NUMBER|TableNameOnly=Capacitor$|FieldNameOnly=PART_NUMBER|FieldType=0|ParameterName=PART_NUMBER|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
